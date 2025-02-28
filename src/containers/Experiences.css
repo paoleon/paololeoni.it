@@ -1,0 +1,61 @@
+.experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem 1rem;
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
+}
+
+.experience-card {
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 82.7%, .397);
+    transition: all .3s ease;
+    height: 5em;
+}
+
+.experience-image-div {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    text-align: right;
+}
+
+.experience-card-image {
+    max-width: 100%;
+    height: auto;
+    width: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.experience-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    width: 50%;
+}
+
+.flex-row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.p-2 {
+    padding: 0.5rem!important;
+}

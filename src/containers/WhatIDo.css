@@ -1,0 +1,59 @@
+@media (max-width: 1380px) {
+    .skills-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-main-div {
+        flex-direction: column;
+    }
+    .skills-heading {
+        font-size: 30px;
+    }
+}
+
+body {
+    color: #868e96!important;
+}
+
+#WhatIDo {
+    /*background: #2B2B2B;*/
+    background: #00000A;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+.skills-main-div {
+    display: flex;
+}
+
+.skills-heading {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+    font: 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.software-skill-inline>p {
+    color: #868e96;
+    font-size: 10px;
+}
+
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}

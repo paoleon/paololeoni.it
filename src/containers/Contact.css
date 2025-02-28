@@ -1,0 +1,31 @@
+.greet-main, .main {
+    width: 90%;
+    padding: 20px 10px;
+}
+.main {
+    margin: 4rem auto 0;
+}
+.prof-title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+.main-content-profile {
+    flex: 80% 1;
+}
+.bio-text {
+    line-height: 30px;
+    font-size: 22px;
+}
+.opp-div {
+    padding-bottom: 1rem;
+}
+.social-media-div {
+    font-size: 2em;
+}
+.image-content-profile {
+    text-align: right;
+    flex: 20% 1;
+    max-width: 100%;
+    height: auto;
+}

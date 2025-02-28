@@ -1,0 +1,69 @@
+.card-image {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+.achievement-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
+}
+.certificate-image-div {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+.certificate-card {
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid hsla(0,0%,82.7%,.397);
+    transition: all .3s ease;
+}
+.background-yellow{
+    background-color: yellow;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.click-to-top span {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: #fff;
+}
+div.click-to-top:hover span {
+    display: block;
+}

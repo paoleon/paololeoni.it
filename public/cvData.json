@@ -1,0 +1,55 @@
+{
+    "nome": "Paolo",
+    "cognome": "Leoni",
+    "email": "paololeoni88@gmail.com",
+    "dataDiNascita": "1st May 1988",
+    "luogoDiNascita": "Moncalieri (TO)",
+    "dichiarazionePersonale": "I am a result-driven motivated and versatile developer with a proven ability to work with Agile and DevOps framework; and I follow the full-stack approach. I keep studying and learning to enhance my Architectural skills with a strong focus on the Cloud environment. Seeking to combine learning growth and work experience in a challenging role. Available to relocate & Available to travel.",
+    "certificati": [
+        "DevOps Foundation - Dec 2021",
+        "AWS Certified Solutions Architect Associate - Ongoing",
+        "Accenture Master Technology Architect (Fundamentals) - May 2021",
+        "Amazon AWS Cloud Practitioner Certification - Apr 2021",
+        "Microsoft Azure Fundamentals [AZ900] - Nov 2020",
+        "Kubernetes - Feb 2020",
+        "REACT - Jan 2020",
+        "Docker - Nov 2019",
+        ".NET - Jun 2019",
+        "Professional Scrum Developer I [PSD1] - Jul 2019",
+        "Python - Feb 2018"
+    ],
+    "esperienzaLavorativa": [
+        {
+            "periodo": "Mar 2023 � Ongoing",
+            "azienda": "Accenture S.p.A.",
+            "posizione": "Blockchain Engineer e DevOps Specialist",
+            "descrizione": [
+                "Deploy custom blockchain networks using Hyperledger Besu.",
+                "Write and deploy Solidity smart contracts for NFT management.",
+                "Backend development in Node.js for interaction with blockchain nodes.",
+                "Use of Docker and Docker Compose for container management."
+            ]
+        },
+        {
+            "periodo": "Feb 2022 � Feb 2023",
+            "azienda": "Accenture S.p.A.",
+            "posizione": "Application Development Senior Analyst [gtportal]",
+            "descrizione": [
+                "Working with ENEL (international energy utility with its operational headquarters in Rome Italy).",
+                "The technology stack is composed by Java Springboot Maven Node.js."
+            ]
+        }
+    ],
+    "istruzione": [
+        {
+            "periodo": "Oct � Dec 2021",
+            "istituto": "Master Blockchain Technology & Management",
+            "dettagli": "Qualification Certificate stored on Ethereum Blockchain system and authenticated via NFT."
+        },
+        {
+            "periodo": "Oct 2009 � Mar 2016",
+            "istituto": "Universit� Studi di L�aquila",
+            "dettagli": "Bachelor�s degree in Computer Science"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 767px){
+  .mobile {
+    display: block!important;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1380px) {
+  body,
+  html {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+@font-face {
+  font-family: "Agustina Regular";
+  src: local("Agustina Regular"),
+    url(./fonts/agustina-webfont/Agustina.woff) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font: 19px/23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.logo-name {
+  font-family: "Agustina Regular";
+  font-weight: 700;
+  font-feature-settings: "liga", "clig off";
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+}
+.handy {
+  height: 1em;
+  width: 1em;
+  margin: 0px 0.05em 0px 0.1em;
+  vertical-align: -0.1em;
+}
+
+.title, .subTitle {
+  text-align: center;
+}
+
+.greet-main,
+.main {
+  width: 90%;
+  padding: 20px 10px;
+}
+
+.main {
+  margin: 4rem auto 0;
+}
+
+
