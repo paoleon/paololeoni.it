@@ -1,47 +1,75 @@
+/* Container principale delle card */
 .experience-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem 1rem;
-    grid-gap: 1rem 1rem;
-    gap: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra le card */
+    justify-content: center;
+    gap: 1.5rem; /* Aggiunge spazio tra le card */
 }
 
+/* Stile delle singole card */
 .experience-card {
     background-color: #fff;
     box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     border: 1px solid hsla(0, 0%, 82.7%, .397);
     transition: all .3s ease;
-    height: 5em;
+    width: 85%;
+    max-width: 900px; /* Larghezza massima aumentata per migliore leggibilità */
+    min-height: 10rem; /* Altezza uniforme */
+    text-align: left;
+    display: flex;
+    align-items: center; /* Allinea immagine e testo */
+    gap: 15px; /* Spazio tra immagine e testo */
 }
 
+/* Contenitore dell'immagine */
 .experience-image-div {
-    position: absolute;
-    /* top: 0; */
-    right: 0;
-    text-align: right;
+    flex-shrink: 0; /* Impedisce all'immagine di ridursi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Spazio fisso per l'immagine */
 }
 
+/* Stile dell'immagine */
 .experience-card-image {
-    max-width: 100%;
-    height: auto;
-    width: 3em;
-    position: absolute;
-    right: 0;
-    top: 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Riempie la dimensione tagliando l’eccesso */
+    border-radius: 10px;
 }
 
-.relative {
-    position: relative;
+
+/* Sezione di testo */
+.experience-text {
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+/* Stile del titolo */
+.experience-text h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Stile della data e descrizione */
+.experience-text small {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Tooltip migliorato */
 .experience-tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
     width: 50%;
 }
+
 
 .flex-row {
     -webkit-box-orient: horizontal !important;

@@ -13,7 +13,7 @@ class Button extends Component {
   }
   render() {
     return (
-      <a href={this.state.href} className={this.state.class} target="_blank">
+      <a href={this.state.href} className={this.state.class} target="_blank" rel="noopener noreferrer">
         <i className={this.state.icon} /> {this.state.title}
       </a>
     );

@@ -16,7 +16,7 @@ class About extends Component {
          var phone = this.props.main.phone;
          var email = this.props.main.email;
          var resumeDownload = this.props.main.resumedownload;
-         var resumeGenerate = this.props.main.resumegenerate;
+         var resumeGenerate = this.props.main.resumegenerate ?? false;
       }
 
       return (
@@ -26,9 +26,12 @@ class About extends Component {
                   <img className="profile-pic" src={`${publicUrl}/${profilepic}`} alt="Paolo Leoni Profile Pic" />
                </div>
                <div className="nine columns main-col">
-                  <h2>About Me</h2>
-
-                  <p dangerouslySetInnerHTML={{ __html: bio }} />
+                  <h2>About Me</h2>{resumeGenerate}
+                  {(bio || "").split("\n").map((line, index) => (
+                     <span key={index} style={{ display: "block", marginTop: "5px" }}>
+                     <p dangerouslySetInnerHTML={{ __html: line }} />
+                     </span>
+                  ))}
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>Contact Details</h2>
@@ -41,14 +44,12 @@ class About extends Component {
                            <span>{email}</span>
                         </p>
                      </div>
-                     {resumeGenerate ?
-                        <div>GENERATE</div> : null}
+                     {resumeGenerate && <CVComponent/>}
                      {resumeDownload ? <div className="columns download">
                         <p>
                            <a href={`${publicUrl}/${resumeDownload}`} className="button"><i className="fa fa-download"></i>Download Resume</a>
                         </p>
                      </div> : null}
-                     <CVComponent/>
                   </div>
                </div>
             </div>

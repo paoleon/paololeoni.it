@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import jsPDF from "jspdf";
-import autoTable from "jspdf-autotable";
+// import autoTable from "jspdf-autotable";
 
 const CVComponent = () => {
   const [cvData, setCvData] = useState(null);
@@ -15,7 +15,7 @@ const CVComponent = () => {
       })
       .then((data) => setCvData(data))
       .catch((error) => console.error("Error fetching data: ", error));
-  }, []);
+  }, [publicUrl]);
 
   const generatePDF = () => {
     if (!cvData) {

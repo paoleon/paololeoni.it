@@ -2,11 +2,11 @@
     "main": {
         "name": "Paolo",
         "surname": "Leoni",
-        "occupation": "🧠 Technology Architect & AI/ML Engineer with expertise in software engineering, blockchain, and cloud solutions, specializing in designing scalable and innovative architectures. With a strong background in full-stack development and AI integration, I focus on building efficient, sustainable systems, leveraging automation, DevOps, and cloud best practices.",
-        "occupationTarget": "A key industry reference, combining agility, strategy, and innovation to develop high-impact solutions. A strong advocate of the AI revolution, passionate about blockchain, and committed to technology sustainability, I believe in the smart application of technology to enhance processes and organizations",
+        "occupation": "🧠 Technology Architect & AI/ML Engineer, specializing in scalable architectures, AI, blockchain, and cloud automation. I build efficient, sustainable systems that drive innovation",
+        "occupationTarget": "🌟 A key industry reference, blending strategy, agility, and impact. Advocate of AI & blockchain. Passionate about sustainable tech",
         "description": "🤖 Conversational AI Expert |💡\"Load\" CM Founder, Designer & Developer |💻 Full Stack |🤼 People Developer |🎨 Senior Technology Architect @Accenture |☁️ Technology Cloud Architect |👨🏽‍💻 DevOps skills enthusiast |♻️ Agile SCRUM Developer |🔗 Blockchain Specialist  |🌲 Soustainability by technology Ambassador EUDR ",
         "image": "images/profilepic.jpg",
-        "bio": "Passionate about Architecture, Security, UI/UX, and the ever-evolving world of technology. Embracing the <code>#LifeLongLearning</code> mindset, I specialize in Web, Cloud, and scripting applications, following a DevOps & Full Stack approach. Deeply engaged in Blockchain, AI, and Machine Learning, I integrate architectural vision with cutting-edge innovation",
+        "bio": "🚀 Passionate about Architecture, Security, UI/UX, and the ever-evolving world of technology. I embrace the <code>#LifeLongLearning</code> mindset, specializing in Web, Cloud, and scripting applications with a DevOps & Full Stack approach. \n 🔗 Deeply engaged in AI, Blockchain, and Machine Learning, I integrate architectural vision with cutting-edge innovation, driving sustainable technology adoption and enhancing security, scalability, and automation.",
 		"big-bio":"My name is Paolo, born in '88, and since 2018, I've been part of the dynamic world of Accenture. Throughout my career, I've immersed myself in a plethora of projects, languages, architectures, and roles, each shaping me into the versatile and forward-thinking innovator I am today. My journey in tech has not only been about adapting and learning; it's been a process of constant innovation and redefinition of what's possible. An essential daily habit that has been crucial to my success is my walking meditation. Every day, without fail, this practice helps me maintain calmness and focus, allowing me to approach challenges with clarity and innovate with intention. It's in these moments of tranquility that I find my greatest inspirations and the strength to keep pushing the boundaries of technology. My most precious childhood memory is of visiting the animals with my grandmother during vacations. Those moments, filled with dedication, effort, and love towards the creatures that depended so much on us, taught me valuable lessons early on. Experiencing the responsibility as a playful adventure instilled in me a profound respect for life and nature, values that I carry with me in everything I do. There's a place that I consider my 'second home'—a small balcony in an inaccessible house in a hamlet in the Val Maira. This secluded spot is where I find peace, inspiration, and a sense of timelessness that rejuvenates my soul. Here, I reconnect with myself, drawing inspiration from the serene landscape to fuel my passion for innovation and creativity. In my role at Accenture, I bring this blend of calm determination, inspired innovation, and deep-rooted values to every project I tackle. I am constantly on the lookout for the next challenge, ready to leverage my experiences and insights to make a meaningful impact in the tech world.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "paololeoni88@gmail.com",
@@ -220,7 +220,8 @@
                 "description": "Laurea in INFORMATICA (L-31 - Classe delle lauree in Scienze e tecnologie informatiche - D.M. 270/2004) in data 19/03/2016. Ai sensi dell'art. 13 comma 7 del D.M. 270/2004, compete la qualifica accademica di Dottore in INFORMATICA.",
                 "link": "",
                 "logo": "https://upload.wikimedia.org/wikipedia/it/2/2b/Logo_Universit%C3%A0_degli_Studi_dell%27Aquila.gif",
-                "className": "education-roundedimg"
+                "className": "education-roundedimg",
+                "isActive":true
             },
             {
                 "school": "Master Technology Architect (Fundamentals)",
@@ -229,7 +230,8 @@
                 "description": "It signifies the understanding of Architecture terminology, approach, methodology, frameworks, tools and ways of working, and thus the ability to successfully operate in an Architecture team.",
                 "link": "",
                 "logo": "/io/images/Certifications/MTA-Cube-423x420-Transparent.png",
-                "className": "education-roundedimg"
+                "className": "education-roundedimg",
+                "isActive":true
             },
             {
                 "school": "Master BLOCKCHAIN Technology & Management",
@@ -238,7 +240,8 @@
                 "description": "Understand and manage blockchain technology this technology in the of corporate and institutional processes",
                 "link": "https://www.theblockchainmanagementschool.it/",
                 "logo": "/io/images/logo/the-blockchain-management-school-logo.png",
-                "className": "education-roundedimg"
+                "className": "education-roundedimg",
+                "isActive":true
             }
         ],
         "work": [
@@ -434,7 +437,7 @@
                 "role": "Technology Architect",
                 "fromTo": "Mar 2022 - Now",
                 "place": "Remote",
-                "description": "Accenture University, Udemy, hands-on project."
+                "description": "Accenture University, Udemy, Architect & Develop hands-on project."
             },
             {
                 "title": "React",
@@ -458,7 +461,7 @@
                 "role": "Technology Architect",
                 "fromTo": "Jun 2019 - Jan 2020",
                 "place": "Rome",
-                "description": "Accenture University, Udemy, hands-on project."
+                "description": "Accenture University, Udemy, Architect & Develop hands-on project."
             },
             {
                 "title": "Python",

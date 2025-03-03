@@ -1,6 +1,6 @@
 
 # Controlla se `node_modules` esiste, altrimenti installa le dipendenze
-if (!(Test-Path "$projectPath\node_modules")) {
+if (!(Test-Path "node_modules")) {
     Write-Host "⚡ Installing dependencies..." -ForegroundColor Cyan
     npm install
 } else {

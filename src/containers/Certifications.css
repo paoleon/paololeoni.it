@@ -1,13 +1,19 @@
+.title{
+    color: #00AEEF;
+}
 .card-image {
     max-width: 100%;
     height: auto;
     width: 250px;
 }
 .achievement-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    height: 100%;
     grid-gap: 1rem 1rem;
     gap: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .certificate-image-div {
     position: relative;

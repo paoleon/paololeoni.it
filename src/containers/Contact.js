@@ -12,7 +12,7 @@ class Contact extends Component {
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+      // var message = this.props.data.contactmessage;
     }
 
     return (
@@ -31,7 +31,7 @@ class Contact extends Component {
                 
                 <div className="opp-div">
                   <span className="desc-prof">
-                    Open for opportunities: {city}
+                    Open for opportunities: {city} {zip} {phone} {email}
                   </span>
                 </div>
 

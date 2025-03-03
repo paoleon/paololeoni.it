@@ -34,7 +34,7 @@ class Header extends Component {
       var occupation = this.props.data.occupation;
       var occupationTarget = this.props.data.occupationTarget;
       var description = this.props.data.description || "sample | description";
-      var splittedDescription = description.split("|");
+      // var splittedDescription = description.split("|");
       var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
@@ -48,7 +48,7 @@ class Header extends Component {
     } else {
       return (
         <div style={{ color: "red", textAlign: "center", padding: "20px" }}>
-          <h2>❌ Errore: Dati non disponibili</h2>
+          <h2><WavingEmoji symbol="❌" label="stop" /> Errore: Dati non disponibili</h2>
           <p>Assicurati che il backend stia inviando correttamente i dati.</p>
         </div>
       );
@@ -115,11 +115,13 @@ class Header extends Component {
             <h1 className="responsive-headline">{/*👋*/}
               Hi all, I'm {name} <WavingEmoji symbol="👋" label="hi" />
             </h1>
-            <p><TypedReactDemo
-              strings={(description.split("|") && description.split("|").length > 0) ? description.split("|") : ["Missing", "splittedDescription"]} /></p>
+            <TypedReactDemo
+              strings={(description.split("|") && description.split("|").length > 0) ? description.split("|") : ["Missing", "splittedDescription"]} />
             <h3 id="personalStatement">
               <span>
-                <strong>I'm a {city}-based </strong>{occupation}
+                <strong>I'm a {city}-based </strong>
+                <br />
+                {occupation}
               </span>
               <br />
               <span>

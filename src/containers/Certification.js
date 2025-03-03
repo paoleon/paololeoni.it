@@ -4,10 +4,10 @@ import Button from "../components/Button/Button";
 import "./Certifications.css";
 
 class Certification extends Component {
-  constructor(props) {
-    super(props);
-    //this.prettifyDate = this.prettifyDate.bind(this);
-  }
+  // constructor(props) {
+  //   super(props);
+  //   //this.prettifyDate = this.prettifyDate.bind(this);
+  // }
 
   prettifyDate(date) {
     console.log("DATE is" + date)
@@ -32,7 +32,11 @@ class Certification extends Component {
             <div className="certificate-image-div">
               <img src={`${publicUrl}/${certification.logo}`}
                 alt={`${certification.title} badge`}
-                className="card-image" style={style} />
+                className="card-image" style={style} 
+                onError={(e) => {
+                  e.target.onerror = null; // Evita loop infinito
+                  e.target.src = publicUrl+"/images/Certifications/dafault-graduation.jpg"; // Immagine di default
+                }}/>
               {certification.achieve_date ? <span className="tooltiptext">{formatted_achieve_date}</span> : null}
             </div>
             <div className="certificate-detail-div">
@@ -55,7 +59,7 @@ class Certification extends Component {
         <div className="achievement-main-div main">
           <div className="achievement-header">
             <h1 className="heading title">
-              Professional Certifications <Emoji symbol="🝆" label="win" />
+              Professional Certifications <Emoji symbol="🏅" label="win" />
             </h1>
             <p className="dark-mode subTitle achievement-subtitle">
 
